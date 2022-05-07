@@ -5,7 +5,7 @@ import Menu from './Menu';
 const Layout = ({children}) => {
   const [open, setOpen] = useState(false)
   return (
-    <div className="mx-10">
+    <div className="">
     <Navbar open={open} setOpen={setOpen} />
     <Menu open={open} setOpen={setOpen} />
     {children}
